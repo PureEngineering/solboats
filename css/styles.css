@@ -106,15 +106,13 @@ body {
   body .business-hero {
     position: relative;
     height: 600px;
-    overflow: hidden; }
+    overflow: hidden;
+    background-image: url("/imgs/warehouse.jpg");
+    background-size: cover; }
   body .business-hero > img {
     width: 100%; }
   body .business-hero .overlay-con {
-    position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
-    width: 100%;
     background: rgba(255, 255, 255, 0.75);
     font-size: 64px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -343,7 +341,7 @@ body {
       font-size: 46px; } }
   @media only screen and (max-width: 767px) {
     body h1 {
-      font-size: 36px; }
+      font-size: 30px; }
     body h2 {
       font-size: 30px; }
     body h3 {
@@ -353,8 +351,9 @@ body {
     body .business-hero {
       height: auto; }
     body .business-hero .overlay-con {
-      padding: 16px; }
-      body .business-hero .overlay-con p {
+      width: auto;
+      padding: 8px; }
+      body .business-hero .overlay-con p, body .business-hero .overlay-con .txt {
         margin-bottom: 4px;
         font-size: 28px; }
     body .business-con h2 {
