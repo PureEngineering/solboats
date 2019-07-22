@@ -107,7 +107,7 @@ body {
     position: relative;
     height: 600px;
     overflow: hidden;
-    background-image: url("/imgs/warehouse.jpg");
+    background-image: url("imgs/warehouse.jpg");
     background-size: cover; }
   body .business-hero > img {
     width: 100%; }
